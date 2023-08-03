@@ -4,6 +4,7 @@ import './index.css';
 import Hello from './Hello';
 import MoreApps from './MoreApps';
 import Counter from './Counter';
+import State from './State';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,5 +17,8 @@ root.render(
     <hr />
     <hr />
     <Counter />
+    <hr />
+    <hr />
+    <State />
   </React.StrictMode>
 );
